@@ -1,4 +1,4 @@
-# Power BI : Coffee Sales Performance Dashboard
+# Power BI : Coffee Sales Business Analysis 
 #### Table Of Contents
 - [Project Overview](project-overview)
 - [Data Source](Data-source)
@@ -21,8 +21,8 @@
 
   ### Tools
 
-  - Data Cleaning and Exploration : SQL
-  - Data Visualization / Dashboard : Power BI
+  - Data Cleaning : SQL
+  - Data Analysis & Visualization : Power BI
 
   ### Data Cleaning
 
@@ -38,29 +38,33 @@
    During the Analysis, I was able to :
 
   - Calculate total transactions, avg order value and total quantity sold
-  - Identify product categories and products with the highest and lowest revenue generation
+  - Identify product categories and products revenue generation
   - identify month with highest revenue generation
   - Calculate which time of the day (Morning, Afternoon, Evening or Night) has the highest transactions
- 
-  ### Results
+ - Calculate how much was sold each month 
 
+  ### Results
+=
    From the following Analysis, I discovered :
 
-  - Total Revenue is $699,000 , Total Transactions are 149,000 & Total Quantity Sold is 214,000
-  - The product category that generated the highest revenue is "Coffee" & least revenue is "Packaged chocolates"
-  - The product type that generated the highest revenue is "Barista Espresso" & least revenue is "Green Beans"
-  - The Month with the highest revenue is "June" with a total of $166,000
-  - Store Location with highest transactions is "Hell's Kitchen"
-  - Time of day with the highest transactions is "Morning" with 90,000 transactions
+  - Total Revenue = $699,000 , Total Transactions = 149,000 & Total Quantity Sold is 214,000
+  - Product category that generated the highest revenue is "Coffee" & least revenue is "Packaged chocolates"
+  - Product type that generated the highest revenue is "Barista Espresso" & least revenue "Green Beans"
+  - June with a total of $166,000, had the highest revenue generation
+  - Hell's Kitchen which is a 1/3 of the location has the highest transactions.
+  - Mornings account for about 60% of all transactions (90,000 of 149,000).
  
   ### Recommendation
 
-   Use quarterly or average monthly analysis instead of YoY when the year is incomplete
+ - Build operations around the morning rush. Since about 60% of transactions happen in the morning, make sure the busiest stores are fully staffed and stocked before it starts. 
+   Prepare the top sellers in advance and set up a fast grab-and-go flow
+ - Coffee and Barista Espresso drive the most revenue, so keep them always in stock and keep quality consistent
+ - Test Hell's Kitchen sales approach in the other two locations 
 
   ### Limitation
   
-   The dataset does not cover a full year for all periods, making Year on Year (YoY) comparisons less reliable.
-
+ - The dataset does not cover a full year for all periods, making Year on Year (YoY) comparisons less reliable.
+ - The data has no costs, so revenue isn’t profit.
 
  
     
